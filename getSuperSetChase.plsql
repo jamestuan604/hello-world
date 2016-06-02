@@ -51,5 +51,5 @@ EXCEPTION
 	RAISE_APPLICATION_ERROR
 	(-20102, 'Exception occurred in getSuperSetChase FUNCTION :'||SQLERRM || ': Top Team || P_TOPTEAMID || ' and Trailing Team || P_TEAMID);
 
-END getGBSuperSetChase;
+END getSuperSetChase;
 
